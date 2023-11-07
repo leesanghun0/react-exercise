@@ -1,0 +1,43 @@
+@import 'variable';
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: $main-color;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top:0;
+    
+    
+
+    &-logo{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 2rem;
+        padding: 10px 0 10px 50px;
+        
+    }
+}
+
+.nav{
+    padding-right: 50px;
+    &-list{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        color: $text-color;
+    }
+    
+    &-item{
+        margin: 0 15px;
+    }
+}
+
+.btn-area{
+    display: none;
+}

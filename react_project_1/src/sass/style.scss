@@ -1,0 +1,26 @@
+@import "variable";
+@import "practies";
+
+
+.bg {
+    &-red {
+        background-color: red;
+    }
+
+    &-blue {
+        background-color: blue;
+    }
+}
+
+
+
+.btn{
+    &-large{
+        width: 200px;
+        height: 150px;
+    }
+    &-small{
+        width: 100px;
+        height: 50px;
+    }
+}

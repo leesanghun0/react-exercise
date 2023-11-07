@@ -1,0 +1,88 @@
+@import "./mixin";
+
+
+@include mobile{
+    #root{
+        overflow: hidden;
+    }
+    .nav{
+        display: none;
+    }
+
+    .btn-area{
+        width: 31px;
+        height: 28px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin: 20px 30px;
+        cursor: pointer;
+
+        &-span{
+            padding: 2.5px 2px;
+            background-color: white;
+        }
+    }
+
+    .banner-slogun{
+        margin: 100px 30px 10px;
+        letter-spacing: nowrap;
+        font-size: 2rem;  
+    }
+
+    .top-content{
+        width: 90%;
+        margin: 0 auto;
+
+        
+        &-wrapper{
+            width: 100%;
+        }
+    }
+    .contents-box{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items:center;
+        text-align: center;
+        
+        &-images{
+            width: 100%;
+            order:1;
+        }
+        &-text{
+            width: 100%;
+            order:2;
+        }
+    }
+
+    .event{
+        &-wapper{
+            width: 100%;
+            padding: 0px 0px;
+            background-position: center right 20%;
+        }
+        &-list{
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 20px auto;
+        }
+        &-link{
+            margin: 0 auto;
+        }
+    
+    }
+    .bottom-content{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+
+        
+        &-wrapper{
+            width: 100%;
+        }
+    }
+    
+ 
+    
+}
