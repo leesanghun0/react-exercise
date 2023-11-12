@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from "../sass/headerLayout.module.scss";
 
 const Header = ()=>{
 
@@ -24,22 +25,23 @@ const Header = ()=>{
     // });
 
 
-    return (<header className="header">
-    <div className="header-logo">COFFEE</div>
+    return (
+    <header className={styles["header"]}>
+    <div className={styles["header-logo"]}>COFFEE</div>
 
-    <nav className="nav">
-     <ul className="nav-list">
+    <nav className={styles["nav"]}>
+     <ul className={styles["nav-list"]}>
          {navList.map((navItem, keyValue)=>
-          <li className="nav-item" key={keyValue}><Link href="#">{navItem}</Link></li>
+          <li className={styles["nav-item"]} key={keyValue}><Link href="#">{navItem}</Link></li>
           )}
      </ul>
     </nav>
      
      {/* mobile-btn */}
-     <span className="btn-area" role="button">
-         <span className="btn-area-span"></span>
-         <span className="btn-area-span"></span>
-         <span className="btn-area-span"></span>
+     <span className={styles["btn-area"]} role="button">
+         <span className={styles["btn-area-span"]}></span>
+         <span className={styles["btn-area-span"]}></span>
+         <span className={styles["btn-area-span"]}></span>
      </span>
  </header>);
 }

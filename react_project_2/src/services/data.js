@@ -10,7 +10,7 @@
 export default [
     {
         id: 0,//일단 각이미지 순서체크
-        images: '../images/sub-section-images-1.jpg',
+        images: '../images/sub-section-images-1.jpg',//방식대로 하면 퍼블릭에 넣어야됨
         title: 'Vestibulum non nisi quis erat aliquet pellentesque',
         describe: 'Curabitur nec consectetur augue, id convallis nibh. Cras augue tortor, ornare vitae molestie a, mollis iaculis tellus. Quisque et ornare sapien.'
     },
