@@ -16,7 +16,7 @@ function Index(){
         <Topcontent></Topcontent>
         <Event></Event>
         <Bottomcontent></Bottomcontent>
-        <Footer></Footer>
+        <Footer/>
         </>
     )
 }

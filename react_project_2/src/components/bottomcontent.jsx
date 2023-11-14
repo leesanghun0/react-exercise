@@ -25,7 +25,4 @@ const Bottomcontent = ()=>{
     </div>
 </section>);
 }
-
-
-
 export default Bottomcontent;
