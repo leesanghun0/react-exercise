@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../sass/content.module.scss";
 import product from "../images/product.jpg";
+import styles from "../sass/content.module.scss";
 
 const Bottomcontent = ()=>{
     return(<section className={styles["bottom-content"]}>
@@ -25,4 +25,6 @@ const Bottomcontent = ()=>{
     </div>
 </section>);
 }
+
+
 export default Bottomcontent;
