@@ -1,19 +1,17 @@
+const handleScroll = () => {
+    const contentsText = document.querySelectorAll('.contents-box-text');
+    contentsText.forEach((textElement) => {
+        const currentPosition = window.scrollY;
+        const eventTargetElement = textElement.getBoundingClientRect().top;
 
-function scrollEvent(){
-    let contentsText = document.querySelectorAll('.contents-box-text');
-    console.log(contentsText)
-
-    for(let i=0; i<contentsText.length; i++){
-        let currentPosition = window.scrollY; //327
-        let eventTargetElement = contentsText[i].getBoundingClientRect().top;//469
-
-        if(currentPosition >= eventTargetElement){
-            contentsText[i].style.transform = 'translateY(0px)';
-            contentsText[i].style.transition =  'all 1s';
-            contentsText[i].style.opacity =  '1';
+        if (currentPosition >= eventTargetElement) {
+            textElement.style.transform = 'translateY(0px)';
+            textElement.style.transition = 'all 1s';
+            textElement.style.opacity = '1';
         }
-    }
-}
-window.addEventListener('scroll',scrollEvent);
+    });
+};
 
-export default scrollEvent;
+window.addEventListener('scroll', handleScroll);
+
+export default handleScroll;
