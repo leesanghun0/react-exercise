@@ -9,21 +9,19 @@
     position: fixed;
     z-index: 999;
     right: 0;
-    top:0;
-    
-    
+    top: 0;
 
     &-logo{
-        color: #ffffff;
+        color: #fff;
         font-weight: 700;
         font-size: 2rem;
         padding: 10px 0 10px 50px;
-        
     }
 }
 
 .nav{
     padding-right: 50px;
+
     &-list{
         height: 100%;
         display: flex;

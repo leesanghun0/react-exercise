@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../sass/content.module.scss";
 
-
 const Event = ()=>{
 
     return(<section className={styles["event"]}>

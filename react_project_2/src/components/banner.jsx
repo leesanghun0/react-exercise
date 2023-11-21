@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "../sass/content.module.scss";
 
-
-
 const Banner = ()=>{
 
     return (<section className={styles["banner"]}>
