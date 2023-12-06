@@ -6,9 +6,6 @@
     background-size: $size;
 }
 
-
-
-
 @mixin mobile{
     @media (min-width: $mobile) and (max-width: $tablet){
         @content;

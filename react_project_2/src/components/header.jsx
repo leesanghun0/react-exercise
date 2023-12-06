@@ -32,7 +32,7 @@ const Header = ()=>{
     <nav className={styles["nav"]}>
      <ul className={styles["nav-list"]}>
          {navList.map((navItem, keyValue)=>
-          <li className={styles["nav-item"]} key={keyValue}><Link href="#">{navItem}</Link></li>
+            <li className={styles["nav-item"]} key={keyValue}><Link to="#">{navItem}</Link></li>
           )}
      </ul>
     </nav>

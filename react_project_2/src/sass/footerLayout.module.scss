@@ -1,8 +1,7 @@
 .footer{  
     width: 100%;
     height: 300px;
-    background: url(../images/contact_bg.jpg) no-repeat;
-    background-position: center;
+    background: url(../images/contact_bg.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -14,12 +13,12 @@
     box-sizing: border-box;
 
     &-title{
-        color: #ffffff;
+        color: #fff;
         padding: 50px 0 0 0;
         font-size: 30px;
     }
     &-middle{
-        color: white;
+        color: #fff;
         padding: 20px  0 30px 0;
         font-weight: 400;
         margin: 50px 0;
@@ -30,7 +29,7 @@
             padding: 15px 60px;
             background-color: rgb(110, 89, 61);
             border-radius: 50px;
-            color: #ffff;
+            color: #fff;
             font-weight: 400;
             font-size: 18px;
         }
