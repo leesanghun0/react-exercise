@@ -11,9 +11,9 @@ const TopContent = () => {
     useEffect(() => {
         handleScroll();
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
+        // return () => {
+        //     window.removeEventListener('scroll', handleScroll);
+        // };
     }, []);
 
 

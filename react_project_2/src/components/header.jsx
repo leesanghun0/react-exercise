@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../sass/headerLayout.module.scss";
 
+
 const Header = ()=>{
 
     const navList = ['메뉴소개','매장안내','가맹안내','커뮤니티'];
