@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../sass/content.module.scss";
 
+
 function Contents(props) {
     return(<div className={styles["contents-box"]}>
     <div className={styles["contents-box-images"]}>

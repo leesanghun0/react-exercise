@@ -9,7 +9,9 @@ const Footer = ()=>{
             <span>coffee@coffee.com</span> 
             <a href="mailto:lsh93620@gmail.com">send mail</a>
         </div>
-        <div className={styles["footer-wapper-copyright"]}>©coffee. All rights reserved.</div>
+        <div className={styles["footer-wapper-copyright"]}>
+            <p>©coffee. All rights reserved.</p>
+        </div>
     </div>
     </footer>
 );}

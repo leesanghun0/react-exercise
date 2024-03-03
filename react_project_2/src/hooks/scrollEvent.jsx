@@ -1,3 +1,4 @@
+
 const handleScroll = () => {
     const contentsText = document.querySelectorAll('.contents-box-text');
     contentsText.forEach((textElement) => {
